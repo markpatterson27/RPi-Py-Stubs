@@ -1,4 +1,9 @@
-"""smbus2 - A drop-in replacement for smbus-cffi/smbus-python"""
+"""
+smbus2 - A drop-in replacement for smbus-cffi/smbus-python
+stub version
+"""
+# original source from https://github.com/kplindegaard/smbus2/blob/master/smbus2/smbus2.py
+#
 # The MIT License (MIT)
 # Copyright (c) 2020 Karl-Petter Lindegaard
 #

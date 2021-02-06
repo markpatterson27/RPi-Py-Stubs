@@ -15,3 +15,4 @@ Python stubs for Raspberry Pi modules. The aim is to make it easier to develop c
 
 - RPi.GPIO: https://sourceforge.net/projects/raspberry-gpio-python/
 - smbus:
+- smbus2: https://github.com/kplindegaard/smbus2

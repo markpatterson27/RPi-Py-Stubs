@@ -25,7 +25,7 @@ class _SMBus(object):
     def write_word_data(self, i2c_addr, register, value):
         pass
 
-    def read_i2c_block_data(self, i2c_addr, register, len):
+    def read_i2c_block_data(self, i2c_addr, register, len=32):
         return [randint(0, 2**8-1)]*len
 
     def write_i2c_block_data(self, i2c_addr, register, data):

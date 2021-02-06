@@ -11,3 +11,7 @@ Python stubs for Raspberry Pi modules. The aim is to make it easier to develop c
 - https://github.com/luxedo/fakeRPiGPIO
 - https://github.com/willbuckner/rpi-gpio-development-mock
 
+### Sources
+
+- RPi.GPIO: https://sourceforge.net/projects/raspberry-gpio-python/
+- smbus:

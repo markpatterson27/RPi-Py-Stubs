@@ -306,7 +306,7 @@ class SMBus(object):
         else:
             raise TypeError("Unexpected type(bus)={}".format(type(bus)))
 
-        self.fd = os.open(filepath, os.O_RDWR)
+        # self.fd = os.open(filepath, os.O_RDWR)
         self.funcs = self._get_funcs()
 
     def close(self):

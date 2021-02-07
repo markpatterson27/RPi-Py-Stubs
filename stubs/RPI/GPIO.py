@@ -66,6 +66,9 @@ RPI_INFO = {
     'INFO': "stub"
 }
 
+# globals
+_mode = None
+
 
 # Define PWM
 class PWM(object):
@@ -134,13 +137,13 @@ def setmode(mode):
     BOARD - Use Raspberry Pi board numbers
     BCM - Use Broadcom GPIO 00..nn numbers
     '''
-    pass
+    _mode = mode
 
 def getmode():
     '''
     Get numbering mode used for channel numbers. Returns BOARD, BCM or None
     '''
-    return BCM
+    return _mode
 
 def add_event_callback(channel, callback):
     '''

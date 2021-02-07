@@ -1,3 +1,6 @@
+"""
+Stub version of a Python module to control the GPIO on a Raspberry Pi
+"""
 # Stub of RPi.GPIO. Original from https://sourceforge.net/projects/raspberry-gpio-python/
 # 
 # Copyright (c) 2012-2021 Ben Croston
@@ -19,8 +22,6 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-
-"""stub: This package provides a Python module to control the GPIO on a Raspberry Pi"""
 
 from random import randint
 

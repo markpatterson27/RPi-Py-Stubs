@@ -27,7 +27,10 @@ stub version
 
 import os
 import sys
-from fcntl import ioctl
+try:
+    from fcntl import ioctl
+except ImportError:
+    from fcntl_stub import ioctl
 from ctypes import c_uint32, c_uint8, c_uint16, c_char, POINTER, Structure, Array, Union, create_string_buffer, string_at
 
 

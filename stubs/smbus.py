@@ -1,7 +1,7 @@
 # stubs for smbus module
 from random import randint
 
-class _SMBus(object):
+class SMBus(object):
 
     def __init__(self, bus=None, force=False):
         self.bus = bus
@@ -38,4 +38,4 @@ class _SMBus(object):
         pass
 
 
-SMBus = _SMBus()
+# SMBus = _SMBus()
